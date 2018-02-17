@@ -12,7 +12,9 @@ public class TimeEntry {
     private String description;
     private float rate;
     private int time;
-
+    /**
+	* @wi.implements elibrary/EL-209 getDescription
+	*/
     public String getDescription() {
         return description;
     }
