@@ -14,7 +14,9 @@ import java.util.List;
 @Configuration
 @ComponentScan("pro.jtaylor.timetracker.core")
 public class TrackerCoreConfig {
-
+	/**
+	* @wi.implements elibrary/EL-209 Test
+	*/
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
         return new ArrayList<>();
