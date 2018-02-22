@@ -22,12 +22,10 @@ public class TrackerTest {
     public void testMe() {
         assertNotNull(tracker);
     }
-    /**
-	* @wi.implements elibrary/EL-209 entryTest
-	*/
+
     @Test
     public void testAdd() {
-        TimeEntry entry = new TiEntry();
+        TimeEntry entry = new TimeEntry();
         entry.setDescription("Entry Test");
         entry.setRate(80.0f);
         entry.setTime(3);
